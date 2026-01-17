@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.google/dns-query</string>
+				<key>ServerName</key>
+				<string>dns.google</string>
+				<key>ServerURLBackup</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+				<key>ServerNameBackup</key>
+				<string>cloudflare-dns.com</string>
+				<key>InterfaceExclusions</key>
+				<array>
+					<string>AGSB_BYOD</string>
+				</array>
+				<key>PrivateRelayMode</key>
+				<string>Disabled</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Bypasser For School Wifi!</string>
+			<key>PayloadDisplayName</key>
+			<string>MAX</string>
+			<key>PayloadIdentifier</key>
+			<string>com.yourgithub.madns.max.agsb</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>MAXA-5678-BCDE-FGHI-JKLM-NOPQ-7890</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>madNS MAX Override (AGSB Excluded + Anti-iCloud)</string>
+	<key>PayloadIdentifier</key>
+	<string>com.yourgithub.madns.max.profile</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>MAXB-AGSB-1234-CDEF-GHIJ-KLMN-OPQR</string>
+	<key>PayloadVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
