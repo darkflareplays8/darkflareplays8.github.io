@@ -10,47 +10,33 @@
 				<key>DNSProtocol</key>
 				<string>HTTPS</string>
 				<key>ServerURL</key>
-				<string>https://dns.google/dns-query</string>
-				<key>ServerName</key>
-				<string>dns.google</string>
-				<key>ServerURLBackup</key>
 				<string>https://cloudflare-dns.com/dns-query</string>
-				<key>ServerNameBackup</key>
+				<key>ServerName</key>
 				<string>cloudflare-dns.com</string>
-				<key>InterfaceExclusions</key>
-				<array>
-					<string>AGSB_BYOD</string>
-				</array>
-				<key>PrivateRelayMode</key>
-				<string>Disabled</string>
 			</dict>
 			<key>PayloadDescription</key>
-			<string>Bypasser For School Wifi!</string>
+			<string>Cloudflare DoH for AGSB_BYOD</string>
 			<key>PayloadDisplayName</key>
-			<string>MAX</string>
+			<string>Cloudflare DNS</string>
 			<key>PayloadIdentifier</key>
-			<string>com.yourgithub.madns.max.agsb</string>
+			<string>com.cloudflare.dns.agsb</string>
 			<key>PayloadType</key>
 			<string>com.apple.dnsSettings.managed</string>
 			<key>PayloadUUID</key>
-			<string>MAXA-5678-BCDE-FGHI-JKLM-NOPQ-7890</string>
+			<string>CFAGSB-1234-5678-9ABC-DEF0-1234</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>madNS MAX Override (AGSB Excluded + Anti-iCloud)</string>
+	<string>AGSB_BYOD Cloudflare DNS</string>
 	<key>PayloadIdentifier</key>
-	<string>com.yourgithub.madns.max.profile</string>
-	<key>PayloadRemovalDisallowed</key>
-	<false/>
-	<key>PayloadScope</key>
-	<string>System</string>
+	<string>com.cloudflare.dns.profile</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>MAXB-AGSB-1234-CDEF-GHIJ-KLMN-OPQR</string>
+	<string>AGSBCF-ABCD-EFGH-IJKL-9012-MNOP</string>
 	<key>PayloadVersion</key>
-	<integer>2</integer>
+	<integer>1</integer>
 </dict>
 </plist>
